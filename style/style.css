@@ -1,0 +1,29 @@
+.montserrat-fonts {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.banner {
+  background:
+    linear-gradient(
+      to right,
+      rgb(23 25 41 / 84%) 0%,
+      rgb(17 21 42 / 62%) 40%,
+      rgb(0 0 0 / 15%) 70%,
+      rgb(23 12 12 / 12%) 100%
+    ),
+    url(../Assets/banner-image.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.active{
+    background-color: #422ad5;
+    color: white;
+}
+.active-link {
+  border-bottom: 2px solid #1D4ED8; 
+  color: #1D4ED8;
+}
