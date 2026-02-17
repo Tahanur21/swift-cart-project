@@ -33,5 +33,4 @@ homeBtn.addEventListener("click", showHome);
 homeDropBtn.addEventListener("click", showHome);
 productsBtn.addEventListener("click", showProducts);
 productsDropBtn.addEventListener("click", showProducts);
-
 showHome();
