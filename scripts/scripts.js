@@ -117,7 +117,7 @@ const disPlayShortData = (products) => {
 
       <!-- Buttons -->
       <div class="card-actions justify-between mt-3">
-        <button class="btn btn-outline btn-sm"><i class="fa-regular fa-eye"></i> Details</button>
+        <button onclick="loadDetails(${product.id})" class="btn btn-outline btn-sm"><i class="fa-regular fa-eye"></i> Details</button>
         <button class="btn btn-primary btn-sm"><i class="fa-solid fa-cart-shopping"></i
             > Add</button>
       </div>
